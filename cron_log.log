@@ -1,0 +1,38 @@
+Google Cloud TTS initialized successfully!
+Starting OLED daemon thread...
+Trying to open camera index 0...
+
+==================================================
+  🚀 RASPI SIGN LANGUAGE LOCAL SERVER IS STARTING!
+  Open this link on your mobile phone browser (same Wi-Fi):
+  👉 http://192.168.1.100:5000
+==================================================
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+[ WARN:0@2.413] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@2.413] global cap.cpp:478 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by index
+[ WARN:0@2.431] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ERROR:0@2.432] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@2.432] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@2.432] global cap.cpp:478 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by index
+[ WARN:0@2.432] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ERROR:0@2.433] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@2.433] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video2): can't open camera by index
+[ WARN:0@2.433] global cap.cpp:478 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by index
+[ WARN:0@2.433] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video2): can't open camera by index
+[ERROR:0@2.433] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@2.433] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video4): can't open camera by index
+[ WARN:0@2.433] global cap.cpp:478 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by index
+[ WARN:0@2.433] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video4): can't open camera by index
+[ERROR:0@2.434] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1781201026.690975    1421 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1781201026.710321    1421 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
